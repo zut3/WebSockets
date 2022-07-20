@@ -1,0 +1,33 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    background-color: #bbf;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.message__date {
+    font-size: 12px;    
+    font-weight: 500;
+    color: #777;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.message__content {
+    font-size: 20px;
+    margin: 0 5px 5px 5px;
+    text-align: start;
+}
+

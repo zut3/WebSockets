@@ -1,0 +1,24 @@
+.form {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 5px 5px 1px 5px;
+    background-color: #44f;
+}
+
+.form__text-input {
+    font-size: 16px;
+    resize: none;
+    flex: 0 1 100%;
+    min-height: 10vh;
+    outline: none;
+}
+
+.form__submit-btn {
+    flex: 1 0 50px;
+    cursor: pointer;
+    outline: none;
+}
